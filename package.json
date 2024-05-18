@@ -1,6 +1,5 @@
 {
     "name": "hostinger-react",
-    "homepage": "http://basit-nazir-memon.github.io/bios-world",
     "version": "1.0.0",
     "description": "Bios World Application",
     "private": true,
@@ -32,8 +31,6 @@
     "scripts": {
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
         "test": "react-app-rewired test",
         "eject": "react-scripts eject"
     },
