@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cattino:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-cattino: Cattino;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-5xl: 24px;
+  --font-size-9xl: 28px;
+  --font-size-19xl: 38px;
+  --font-size-29xl: 48px;
+  --font-size-33xl: 52px;
+  --font-size-23xl: 42px;
+  --font-size-13xl: 32px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-darkslategray-100: #203d41;
+  --color-white: #fff;
+  --color-seagreen-100: #40a072;
+  --color-seagreen-200: #3e986f;
+  --color-silver: #c1c1c1;
+  --color-whitesmoke: #eaeaea;
+  --color-gray: rgba(255, 255, 255, 0.1);
+  --color-lightgray: #cfcfcf;
+  --color-honeydew: #deede4;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-21xl: 40px;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-mini: 15px;
+}

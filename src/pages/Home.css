@@ -1,0 +1,2669 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #C1C1C1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(9deg, rgba(20, 41, 48, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(51, 124, 94, 1) 100%, rgba(64, 160, 114, 1) 100%);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2e7955;
+}
+
+.mainScreen{
+    width: 100%;
+    background-color: #1f373f;
+}
+
+.mainComponent{
+    width: 100%;
+    position: relative;
+    height: 800px;
+}
+
+.mainhighlight{
+    color: #40A072;
+}
+
+.mainComponentItems{
+    height: calc(800px);
+    background-color: rgba(217, 217, 217, 0.05);
+    position: relative;
+    top: -805px;
+    overflow: hidden;
+}
+
+#icon{
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    display: none;
+}
+
+#icon i {
+    font-size: 18px;
+    color: #C1C1C1;
+}
+
+
+.MainImage{
+    width: 100%;
+    background-color: rgba(0, 68, 1, 0.174);
+    height: 800px;
+    mix-blend-mode: multiply;
+}
+
+.MainImageShadow{
+    width: calc(100%);
+    
+}
+
+.fixed{
+    position: fixed;
+    /* transition: 0.5s all ease; */
+    background: linear-gradient(9deg, rgba(20, 41, 48, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(51, 124, 94, 1) 100%, rgba(64, 160, 114, 1) 100%);
+    width: 70%;
+    z-index: 10;
+}
+
+.nav{
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    /* transition: 0.5s all ease; */
+    z-index: 2;
+}
+
+.active{
+    color: #40A072;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #C1C1C1;
+    z-index: 2;
+}
+
+.nav ul li:hover {
+    color: #40A072;
+}
+
+.mainContainer{
+    width: 85%;
+    padding-left: 15%;
+    display: flex;
+
+}
+
+.buyTokenParent {
+    width: 220px;
+    height: 70px;
+    background: #40A072;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.buyTokenParent:hover{
+    background: #2e7955;
+    cursor: pointer;
+}
+
+.buyToken {
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.groupInner {
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 30px;
+    height: 15px;
+    line-height: 50px;
+}
+
+.heading{
+    font-family:cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: white;
+    margin: 25px 0;
+}
+.mainLeft{
+    width: 50%;
+    z-index: 1;
+}
+
+.content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin: 30px 0;
+    color: #EAEAEA;
+}
+
+.logo{
+    height: 100%;
+    z-index: 1;
+}
+
+.logo img{
+    height: 65%;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.mainRight{
+    width: 50%;
+    background-color: transparent;
+    height: 640px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.htree{
+    position: absolute;
+    justify-content: flex-end;
+    height: 120%;
+    top: -16.5%;
+    right: 0px;
+}
+
+.birds{
+    position: absolute;
+    justify-content: flex-end;
+    width: 80%;
+    top: -16.5%;
+}
+
+.tigerr{
+    position: absolute;
+    justify-content: flex-end;
+    width: 90%;
+    bottom: 0%;
+    right: 0;
+    max-height: 650px;
+}
+
+.zebra{
+    position: absolute;
+    justify-content: flex-end;
+    width: 17%;
+    bottom: 3%;
+    left: 3%;
+}
+
+.elephant{
+    position: absolute;
+    justify-content: flex-end;
+    width: 17%;
+    bottom: 11%;
+    left: 17%;
+}
+
+.shadowTopMainComponent{
+    position: absolute;
+    width: 792px;
+    height: 632px;
+    left: -444px;
+    top: -350px;
+    background: #40A072;
+    filter: blur(328px);
+}
+
+.shadowBottomMainComponent{
+    position: absolute;
+    width: 904px;
+    height: 550px;
+    bottom: 20px;
+    right: -150px;
+    background: #40A072;
+    filter: blur(328px);
+}
+
+.walletConnection{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.walletImagesLeft{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+
+
+.walletTree{
+    height: 100%;
+    margin-left: -60px;
+}
+
+.stone{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 500px;
+    left: -8%;
+    max-height: 500px;
+}
+
+.owl{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 300px;
+}
+
+.walletConnShadow1{
+    position: absolute;
+    width: 602px;
+    height: 550px;
+    left: -96px;
+    top: 108px;
+    background: #40A072;
+    filter: blur(300px);
+}
+
+.walletConnShadow2{
+    position: absolute;
+    width: 590px;
+    height: 486px;
+    right: 5%;
+    top: 15%;
+    background: #40A072;
+    filter: blur(328px);
+    z-index: 0;
+}
+
+.walletConnectionRight{
+    width: 55%;
+    position: relative;
+}
+
+.modal {
+    position: relative;
+    margin-left: 2%;
+    margin-top: 14%;
+    width:55%;
+    height: 55%;
+    background: rgba(31, 55, 63, 0.9);;
+    box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    font-family: 'Inter';
+}
+
+.m1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.m1-1{
+    box-sizing: border-box;
+    color: white;
+    width: 18%;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background: #40A072;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.m1-1 h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.m1-1 p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.m2{
+    margin-top: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.23) 0%, rgba(217, 217, 217, 0) 168.99%);
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    width: 100%;
+    height: 16px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.barlineFill{
+    background-color: #40A072;
+    height: 100%;
+    width: 60%;
+    transition: 2s all ease ;
+}
+
+.m2 p{
+    text-align: center;
+    margin-top: -13.5px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.m3{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.m4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar{
+    margin-top: 9px;
+    width: 25%;
+    height: 0.8px;
+    background-color: white;
+}
+
+.value{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.m5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coinContainer{
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.23) 0%, rgba(217, 217, 217, 0) 168.99%);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 20%;
+    padding: 3px;
+    display: flex;
+    height: auto;
+    height: 40px;
+    cursor: pointer;
+}
+
+.coinLogo{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinLogo img{
+    width: auto;
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.coinName{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinName p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight:normal;
+    line-height: 34px;
+    margin-left: 5px;
+}
+
+.m6{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.address{
+    font-size: 12px;
+    text-align: center;
+}
+
+.m7{
+    margin-top: 9px;
+    width: 100%;
+    height: 0.8px;
+    background-color: white;
+}
+
+.m8{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m8Left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.m8LTop{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.m8LBottom{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.inputField{
+    margin-top: 5px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.23) 0%, rgba(217, 217, 217, 0) 168.99%);
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 0 5%;
+}
+
+.m8LBottom img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 3%;
+    bottom: 7%;
+}
+
+.m9{
+    width: 70%;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: center;
+}
+
+.m10, .m12btn{
+    width: 160px;
+    height: 45px;
+    background: #40A072;
+    border-radius: 5px;
+    color: White;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 45px;
+}
+
+.m12btn{
+    margin: 0 2%;
+}
+
+.m10:hover, .m12btn:hover{
+    background-color: #2e7955;
+    cursor: pointer;
+}
+
+.m12{
+    display: flex;
+
+}
+
+.m11{
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.bird{
+    position: absolute;
+    width: 35%;
+    left: 47%;
+    top: 4%;
+}
+
+.mouse{
+    position: absolute;
+    width: 40%;
+    right: 0;
+    bottom: 5%;
+}
+
+
+
+/*   --------------------------   BiosWorld   ---------------------------     */
+
+.BiosWorld{
+    margin-top: -100px;
+    width: 70%;
+    height: 400px;
+    padding: 15%;
+    display: flex;
+    position: relative;
+}
+
+.BiosWorldLeft{
+    width: 60%;
+}
+
+.biosWorldShadow1{
+    position: absolute;
+    width: 746px;
+    height: 386px;
+    left: -504px;
+    top: 390px;
+
+    background: #40A072;
+    filter: blur(328px);
+}
+
+.Heading {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin: 25px 0;
+}
+
+.BiosWorldLeftPara{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    color: white;
+    margin-top: 80px;
+    line-height: 2;
+}
+
+.BiosWorldRight{
+    width: 40%;
+    position: relative;
+}
+
+.BiosWorldRight img{
+    position: absolute;
+    width: 80%;
+    right: 0;
+    bottom: 0;
+}
+
+.jungle{
+    position: absolute;
+    width: 45%;
+    opacity: 0.5;
+    bottom: 0;
+    right: 0;
+}
+
+
+/*   --------------------------   Info   ---------------------------     */
+
+.info{
+    position: relative;
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoTop{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoTopItem{
+    width: 48%;
+}
+
+.infoBottom{
+    margin-top: 5%;
+    width: 100%;
+    z-index: 1;
+}
+
+.infoItem{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+}
+
+.infoItem h5{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #40A072;
+}
+
+.infoItem p{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Inter';
+}
+
+
+/*   --------------------------   Takenomics   ---------------------------     */
+
+.tokenomics{
+    position: relative;
+}
+
+.sloth{
+    position: absolute;
+    top: -70px;
+    width: 41%;
+    z-index: 0;
+}
+
+.tokenomicsShadow1{
+    position: absolute;
+    width: 874px;
+    height: 696px;
+    background: #40A072;
+    filter: blur(328px);
+    left: -200px;
+}
+
+.TokHeading{
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #40A072;
+}
+
+.totalSupply{
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    margin-top: 70px;
+}
+
+.pieChart{
+    position: relative;
+    width: 64%;
+    left: 18%;
+}
+
+.pieChartData{
+    margin-top: -10%;
+    position: relative;
+    display: flex;
+    width: 64%;
+    left: 18%;
+    justify-content: space-between;
+    color: white;
+    font-size: 19px;
+    font-family: 'Inter';
+    font-weight: 300;
+    line-height: 2;
+}
+
+.tokenInfoList{
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    font-size: 26px;
+    font-family: 'Inter';
+    font-weight: normal;
+    line-height: 2;
+    justify-content: space-between;
+    padding: 20px 18%;
+}
+
+.tableViewContainer{
+    margin-top: 50px;
+    position: relative;
+    width: 70%;
+    padding: 0 15%;
+    overflow-y: scroll;
+}
+
+.tableViewContainer table{
+    width: 100%;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter';
+    border-collapse: collapse;
+}
+
+.tableViewContainer th,
+.tableViewContainer td{
+    padding: 25px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tableViewContainer th {
+    background-color: #40A072;
+}
+
+.tableViewContainer tbody tr {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 300;
+}
+
+.tableViewContainer tbody td:hover {
+    background-color: #f5f5f5;
+    color: #40A072;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.1s ease;
+}
+
+.roadMap{
+    position: relative;
+}
+
+.roadMapTree{
+    position: absolute;
+    top: -200px;
+    width: 27%;
+}
+
+.roadMapTree2{
+    position: absolute;
+    width: 32%;
+    top: 80px;
+}
+
+.deer{
+    position: absolute;
+    width: 15%;
+    left: 125px;
+    top: -20px;
+}
+
+.overDeer{
+    position: absolute;
+    width: 5%;
+    left: 255px;
+    top: -40px;
+}
+
+.mouseOnTree{
+    position: absolute;
+    width: 35%;
+    right: 0;
+    top: -140px;
+}
+
+.roadmapHeading{
+    position: relative;
+    margin-top: 150px;
+}
+
+
+.roadMapPath{
+    position: relative;
+    width: 70%;
+    padding: 0 15%;
+}
+
+.roadMapTrail{
+    width: 100%;
+    margin-top: 220px;
+}
+
+.pathInfoTop{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 130px;
+}
+
+.pathItem{
+    position: absolute;
+}
+
+.pathHeading{
+    background-color: #40A072;
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    text-align: center;
+}
+
+.pathInfoPoints{
+    color: white;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Inter';
+    display: none;
+    transition: 5s all ease;
+}
+
+.pathItemImage{
+    width: 60%;
+}
+
+.item1{
+    bottom: -500px;
+}
+
+.item2{
+    left: 22%;
+    top: -90px;
+}
+
+.item3{
+    left: 40%;
+    bottom: -340px;
+}
+
+.item4{
+    left: 60%;
+    top: -330px;
+}
+
+.item5{
+    right: 0;
+    bottom: -260px;
+}
+
+.pathInfoBottom {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0px;
+}
+
+.meetTeam{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.meetCards {
+    position: relative;
+    margin-top: 150px;
+    width: 70%;
+    left: 15%;
+    height: 50px;
+}
+
+.wolf{
+    position: absolute;
+    width: 15%;
+    right: 0%;
+    top: -300px;
+}
+
+.hill{
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+.meetCardContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meetCard{
+    height: 620px;
+    width: 28%;
+    background: #203D41;
+    padding: 2%;
+}
+
+.cardImg{
+    width: 100%;
+}
+
+.meetCard h4{
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.meetCard h5{
+    color: white;
+    font-weight: normal;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+.meetCard p{
+    margin-top: 25px;
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+.howToBuy{
+    margin-top: -200px;
+    font-size: 40px;
+}
+
+.memify {
+    position: relative;
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    width: 60%;
+    left: 20%;
+}
+
+.howtoBuySection{
+    position: relative;
+}
+
+.backImage{
+    margin-top: -150px;
+    position: absolute;
+    width: 100%;
+    height: 107%;
+}
+
+.buyGuidesContainer{
+    margin-top: 500px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+
+.buyGuide{
+    margin-top: 150px;
+    position: relative;
+}
+
+.buyGuide h5{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    color: #3E986F;
+}
+
+.GuideCard{
+    position: relative;
+    margin-top: 50px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.GuideCard p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 22px;
+    color: #EAEAEA;
+    line-height: 2;
+}
+
+.guideCartoonImg{
+    position: absolute;
+    width: 20%;
+    top: -60px;
+    right: 5%;
+}
+
+.turtle{
+    margin-top: 70px
+}
+
+.crocodile{
+    margin-top: 110px;
+}
+
+.cub{
+    margin-top: 40px;
+}
+
+.footer{
+    margin-top: -5px;
+    width: 100%;
+    background: #142930;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #C1C1C1;
+    font-family: 'Inter';
+}
+
+.footerTop{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    left: 15%;
+    padding: 150px 0;
+}
+
+.footerTopLinks{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.left{
+    width: 40%;
+}
+
+.left img{
+    width: 30%;
+}
+.left p{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+
+.aboutUs{
+    
+}
+
+.aboutUs ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.aboutUs ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #C1C1C1;
+}
+
+.aboutUs ul li a{
+    text-decoration: none;
+    color: #C1C1C1;
+}
+
+.aboutUs ul li p:hover{
+    color: #3E986F;
+    cursor: pointer;
+}
+
+.follow{
+
+}
+.follow ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.follow ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #C1C1C1;
+}
+
+.follow ul li a{
+    text-decoration: none;
+    color: #C1C1C1;
+}
+
+.followOption{
+    display: flex;
+}
+
+.img{
+    /* margin-right: 5px; */
+    width: 20px;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img i{
+    text-align: center;
+}
+
+.text{
+    margin-left: 5px;
+}
+
+.followHead{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Inter';
+}
+
+.footer a:hover{
+    color: #3E986F;
+}
+
+.copyright{
+    color: #C1C1C1;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    width: 100%;
+}
+
+
+
+.designedBy{
+    position: absolute;
+    right: 0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.designedBy a{
+    text-decoration: none;
+    color: #C1C1C1;
+}
+
+.designedBy img{
+    margin-top: 5px;
+    width: 80%;
+}
+
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-color: #2e7955;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img{
+    position: relative;
+    width: 10%;
+    height: auto;
+    aspect-ratio: 1;
+    left: 45%;
+    top: calc(50vh - 5%);
+}
+
+@media (max-width: 1350px){
+    .deer{
+        left: 110px;
+    }
+
+    .overDeer{
+        left: 220px;
+    }
+
+    .item4{
+        top: -260px;
+    }
+
+    .pathItemImage{
+        width: 50%;
+    }
+    .pathInfoPoints{
+        font-size: 13px;
+    }
+    .pathHeading{
+        font-size: 16px;
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .hill{
+        margin-top: 250px;
+    }
+
+    .howtoBuySection{
+        margin-top: -30px;
+    }
+}
+
+
+@media (max-width:1280px){
+    .modal{
+        margin-left: 0%;
+        width: 57%;
+    }
+    .m8Left{
+        width: 48%;
+    }
+    .m8Top{
+        font-size: 10px;
+        font-weight: 250;
+    }
+    .owl{
+        top: 340px;
+        left: 22%;
+    }
+
+    .mouse{
+        width: 38%;
+        bottom: 10%;
+    }
+    .footerTop{
+        width: 90%;
+        left: 5%;
+    }
+    .wolf{
+        top: -270px;
+    }
+    .hill{
+        margin-top: 280px;
+    }
+    .meetCard h4{
+        font-size: 20px;
+    }
+    .meetCard h5{
+        font-size: 11px;
+    }
+    .meetCard p{
+        font-size: 16px;
+    }
+    .meetCard{
+        height: 580px;
+    }
+    .meetCards{
+        margin-top: 50px;
+    }
+    .wolf{
+        top: -190px;
+    }
+    .howToBuy{
+        margin-top: -150px;
+    }
+    .howtoBuySection{
+        margin-top: -60px;
+    }
+    .buyGuide h5{
+        font-size: 28px;
+    }
+    .GuideCard p{
+        font-size: 20px;
+    }
+    .guideCartoonImg{
+        position: absolute;
+        width: 20%;
+        top: -50px;
+        right: 5%;
+    }
+
+    .turtle{
+        margin-top: 70px
+    }
+
+    .crocodile{
+        margin-top: 110px;
+    }
+
+    .cub{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 1160px){
+    .modal{
+        margin-left: -3%;
+        width: 60%;
+    }
+    .m8Left{
+        width: 49%;
+    }
+    .m8LTop{
+        font-size: 11px;
+        font-weight: 250;
+    }
+    .owl{
+        top: 340px;
+        left: 22%;
+    }
+
+    .mouse{
+        width: 38%;
+        bottom: 15%;
+    }
+
+    .coinContainer{
+        width: 24%;
+    }
+
+    .bar{
+        width: 20%;
+    }
+    .Heading {
+        font-size: 35px;
+    }
+    .BiosWorldLeftPara{
+        font-size: 17px;
+    }
+    .tokenInfoList{
+        font-size: 20px;
+    }
+    .tableViewContainer th,
+    .tableViewContainer td{
+        padding: 20px;
+    }
+    .tableViewContainer table{
+        font-size: 18px;
+    }
+    .deer{
+        left: 80px;
+    }
+
+    .overDeer{
+        left: 170px;
+    }
+    .item1{
+        bottom: -450px;
+    }
+    .item4{
+       top: -230px;
+    }
+    .wolf {
+        top: -170px;
+    }
+    .howToBuy{
+        margin-top: -130px;
+        font-size: 35px;
+    }
+    .memify{
+        font-size: 35px;
+    }
+    .howtoBuySection{
+        margin-top: -140px;
+    }
+    .howToBuy{
+        margin-top: -150px;
+    }
+    .buyGuide{
+        margin-top: 100px;
+    }
+    .buyGuide h5{
+        font-size: 27px;
+    }
+    .GuideCard p{
+        font-size: 19px;
+    }
+    .guideCartoonImg{
+        top: -40px;
+    }
+
+    .turtle{
+        margin-top: 70px
+    }
+
+    .crocodile{
+        margin-top: 110px;
+    }
+
+    .cub{
+        margin-top: 40px;
+    }
+    .designedBy{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .items{
+        /* display: none; */
+        background-color: #142930;
+        width: 60%;
+        height: 900px;
+        z-index: 5;
+        position: absolute;
+        top: -60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        right: 20%;
+        transition: 1s all ease;
+    }
+
+    .items ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .items ul li{
+        font-size: 25px;
+        margin: 10px 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .items ul li:hover{
+        background-color: #3E986F;
+        transition: 0.2s all ease;
+        cursor: pointer;
+    }
+
+    #icon{
+        display: block;
+        z-index: 1;
+    }
+
+    .heading{
+        font-size: 35px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+    .buyTokenParent{
+        width: 180px;
+        height: 55px;
+    }
+
+    .buyToken{
+        font-size: 17px;
+    }
+
+    .walletImagesLeft{
+        width: 40%;
+    }
+
+    .walletTree{
+        height: 700px;
+    }
+
+    .stone{
+        width: 110%;
+        top: 480px;
+    }
+    .owl{
+        top: 360px;
+    }
+    .m8LTop {
+        font-size: 10px;
+    }
+    .bar{
+        width: 15%;
+    }
+
+    .value{
+        font-size: 13px;
+    }
+    .m3{
+        font-size: 12px;
+    }
+
+    .m1-1 p{
+        font-size: 10px;
+    }
+
+    .m1-1 h5{
+        font-size: 16px;
+    }
+
+    .m1-1{
+        width: 22%;
+    }
+
+    .m6{
+        font-size: 12px;
+    }
+
+    .coinLogo{
+        width: 40%;
+    }
+    .coinName p{
+        font-size: 10px;
+    }
+    .mouse{
+        bottom: 20%;
+    }
+    .modal{
+        margin-top: 25%;
+    }
+    .bird{
+        top: 9%;
+    }
+    .Heading {
+        font-size: 33px;
+    }
+
+    .BiosWorldLeftPara {
+        font-size: 16px;
+    }
+    .BiosWorldLeft{
+        width: 70%;
+    }
+    .BiosWorldRight{
+        width: 30%;
+    }
+
+    .BiosWorldRight img{
+        width: 120%;
+        margin-right: -50px;
+    }
+    .tokenInfoList{
+        font-size: 16px;
+    }
+    .footerTop{
+        flex-direction: column;
+        padding: 80px 0;
+        width: 80%;
+        left: 10%;
+    }
+    .footerTopLinks{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .left{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .leftItem{
+        display: flex;
+        justify-content: center;align-items: center;
+    }
+
+    .leftItem img{
+        height: auto;
+        width: 20%;
+        height: 20%;
+        margin-right: 5%;
+    }
+
+    .leftItem p{
+        margin: 0;
+    }
+    .deer{
+        left: 80px;
+    }
+
+    .overDeer{
+        left: 160px;
+    }
+
+    .pathInfoPoints{
+        display: none;
+    }
+
+    .roadMapPath{
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    .pathItemImage{
+        width: 55%;
+    }
+
+    .item1{
+        bottom: -450px;
+    }
+
+    .item4{
+        top: -250px;
+    }
+    .wolf {
+        width: 20%;
+        top: -180px;
+    }
+    .meetCardContainer{
+        flex-direction: column;
+    }
+    .meetCard{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    .cardImg{
+        width: 30%;
+    }
+    .meetCard h4{
+        margin-top: 0;
+    }
+    .meetCardContent{
+        margin-left: 10px;
+    }
+    .meetCard p{
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+    .meetCards{
+        margin-top: 50px;
+    }
+    .howToBuy{
+        font-size: 30px;
+    }
+    .memify{
+        font-size: 28px;
+    }
+    .howtoBuySection{
+        margin-top: -240px;
+    }
+    .designedBy{
+        width: 20%;
+    }
+
+    .nav{
+        position: fixed;
+        width: 70%;
+        background: linear-gradient(9deg, rgba(20, 41, 48, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(51, 124, 94, 1) 100%, rgba(64, 160, 114, 1) 100%);
+    }
+
+    .mainContainer{
+        margin-top: 120px;
+    }
+    .address{
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 890px){
+    .walletImagesLeft {
+        width: 30%;
+    }
+
+    .walletConnectionRight{
+        width: 70%;
+    }
+
+    .walletTree {
+        height: 800px;
+    }
+
+    .stone {
+        width: 150%;
+        top: 520px;
+    }
+
+    .owl {
+        top: 430px;
+        left: 15%;
+        width: 70%;
+    }
+
+    .mouse {
+        bottom: 16%;
+        right: -5%;
+    }
+
+    .modal {
+        margin-top: 25%;
+    }
+
+    .bird {
+        top: 10%;
+    }
+    .infoTop{
+        flex-direction: column;
+    }
+    .infoTopItem{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .tableViewContainer th,
+    .tableViewContainer td{
+        padding: 15px;
+    }
+    .tableViewContainer table{
+        font-size: 16px;
+    }
+    .hill{
+        margin-top: 350px;
+    }
+    .wolf {
+        top: -155px;
+    }
+    .howToBuy{
+        font-size: 27px;
+        margin-top: -110px;
+    }
+    .memify{
+        font-size: 25px;
+    }
+    .howtoBuySection{
+        margin-top: -200px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .Heading {
+        font-size: 30px;
+    }
+    .BiosWorldLeftPara {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .BiosWorldRight img {
+        width: 120%;
+        margin-right: -50px;
+    }
+    .infoItem h5{
+        font-size: 24;
+    }
+
+    .infoItem p{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .TokHeading{
+        font-size: 26px;
+    }
+    .totalSupply{
+        font-size: 26px;
+    }
+    .pieChartData{
+        font-size: 14px;
+    }
+    .tokenInfoList{
+        padding: 20px 10%;
+    }
+    .tableViewContainer{
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    .roadMapTree{
+        top:-150px;
+    }
+
+    .roadMapTree2{
+        width: 40%;
+    }
+
+    .deer{
+        width: 18%;
+        left: 60px;
+    }
+
+    .overDeer{
+        width: 6%;
+        left: 140px;
+    }
+
+    .mouseOnTree{
+        width: 40%;
+    }
+    .pathItemImage{
+        width: 45%;
+    }
+    .item4{
+        top: -220px;
+    }
+    .item1{
+        bottom: -430px;
+    }
+    .wolf {
+        top: -150px;
+        width: 15%;
+    }
+    .meetCards{
+        width: 87%;
+        left: 0%;
+        padding: 0 5%;
+    }
+    .howtoBuySection{
+        margin-top: -260px;
+    }
+    .buyGuide{
+        margin-top: 50px;
+    }
+    .buyGuide h5{
+        font-size: 25px;
+    }
+
+    .GuideCard{
+        margin-top: 20px;
+    }
+    
+    .GuideCard p{
+        font-size: 17px;
+    }
+    .guideCartoonImg{
+        top: -30px;
+    }
+
+    .turtle{
+        margin-top: 30px
+    }
+
+    .crocodile{
+        margin-top: 60px;
+    }
+
+    .cub{
+        margin-top: 25px;
+    }
+    .m6{
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px){
+    .heading{
+        font-size: 30px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+    .buyTokenParent{
+        width: 170px;
+        height: 50px;
+    }
+
+    .buyToken{
+        font-size: 16px;
+    }
+    .htree{
+        height: 100%;
+        top: -10%;
+    }
+    .birds{
+        top: -10%;
+    }
+    .tigerr{
+        width: 100%;
+    }
+
+    .stone {
+        width: 450px;
+        top: 520px;
+    }
+
+    .owl {
+        top: 420px;
+        left: 15%;
+        width: 70%;
+    }
+
+    .mouse {
+        bottom: 16%;
+        right: 0%;
+        width: 40%;
+    }
+
+    .modal {
+        
+        width: 65%;;
+    }
+
+    .bird {
+        top: 7%;
+    }
+
+    .m9{
+        font-size: 11px;
+    }
+    .tableViewContainer th,
+    .tableViewContainer td{
+        padding: 15px 5px;
+    }
+    .tableViewContainer table{
+        font-size: 14px;
+    }
+    .walletConnShadow1{
+        display: none;
+    }
+    .tokenomicsShadow1{
+        display: none;
+    }
+    .left p{
+        font-size: 14px;
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+    .meetCard h4{
+        font-size: 18px;
+    }
+    .meetCard h5{
+        font-size: 10px;
+    }
+    .meetCard p{
+        font-size: 14px;
+    }
+    .meetCards{
+        margin-top: 50px;
+    }
+    .howToBuy{
+        margin-top: -90px;
+    }
+    .memify{
+        font-size: 22px;
+    }
+    .howtoBuySection{
+        margin-top: -260px;
+    }
+    .buyGuidesContainer{
+        margin-top: 400px;
+    }
+    .backImage{
+        margin-top: -50px;
+    }
+    .GuideCard p{
+        font-size: 15px;
+    }
+    .buyGuide h5{
+        font-size: 20px;
+    }
+    .designedBy img{
+        width: 100%;
+    }
+    .designedBy p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px){
+    .roadMapPath{
+        width: 100%;
+        padding: 0;
+    }
+    .wolf {
+        top: -130px;
+    }
+    .howtoBuySection{
+        margin-top: -300px;
+    }
+}
+
+@media (max-width:650px){
+    .walletImagesLeft {
+        width: 25%;
+    }
+
+    .walletConnectionRight {
+        width: 75%;
+    }
+    
+    .stone {
+        width: 400px;
+        top: 520px;
+    }
+
+    .owl {
+        top: 560px;
+        left: 0%;
+        width: 100%;
+    }
+
+    .mouse {
+        bottom: 16%;
+        right: 0%;
+        width: 40%;
+    }
+
+    .modal {
+        width: 70%;
+        ;
+    }
+
+    .bird {
+        top: 7%;
+        left: 60%;
+    }
+
+    .m8LTop{
+        font-size: 8px;
+    }
+    .m9{
+        font-size: 10px;
+    }
+    .pieChart{
+        width: 90%;
+        left: 5%;
+    }
+    .pieChartData{
+        font-size: 13px;
+    }
+    .tokenInfoList{
+        padding: 20px 5%;
+    }
+    .roadMapTree{
+        top:-140px;
+        width: 30%;
+    }
+
+    .deer{
+        left:50px;
+    }
+
+    .overDeer{
+        left: 120px;
+    }
+
+    .howtoBuySection{
+        margin-top: -320px;
+    }
+    .designedBy{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+    }
+
+    .designedBy img{
+        width: 30%;
+    }
+
+    .designedBy p{
+        font-size: 14px;
+    }
+    .copyright{
+        flex-direction: column;
+    }
+    .coinLogo img{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 620px){
+    .mainContainer{
+        width: 95%;
+        padding-left: 5%;
+    }
+    .htree{
+        height: 100%;
+        width: 350px;
+    }
+    .birds{
+        top: -15%;
+        right: 10%;
+        width: 100%;
+    }
+    .tigerr{
+        width: 95%;
+    }
+    .BiosWorld{
+        width: 90%;
+        padding: 5%;
+    }
+    .BiosWorldRight img{
+        bottom: 15%;
+        margin-right: -20px;
+        width: 100%;
+    }
+    .Heading{
+        font-size: 27px;
+    }
+    .BiosWorldLeftPara{
+        font-size: 13px;
+    }
+    .info{
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .infoItem h5{
+        font-size: 20px;
+    }
+
+    .infoItem p{
+        font-size: 12px;
+    }
+    .roadMapPath{
+        margin-top: -120px;
+        margin-bottom: -150px;
+    }
+    .item1{
+        bottom: -390px;
+    }
+    .pathItem{
+        width: 32%;
+    }
+    .item2{
+        top: -60px;
+    }
+    .item3{
+        bottom: -290px;
+    }
+    .item4{
+        top: -180px;
+    }
+    .item5{
+        bottom: -230px;
+    }
+    .meetCard h4{
+        font-size: 17px;
+    }
+    .meetCard h5{
+        font-size: 10px;
+    }
+    .meetCard p{
+        font-size: 13px;
+    }
+    .howToBuy{
+        margin-top: -80px;
+        font-size: 25px;
+    }
+    .memify{
+        font-size: 18px;
+    }
+    .howtoBuySection{
+        margin-top: -350px;
+    }
+    .m12btn{
+        width: 140px;
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 550px){
+    .mainLeft{
+        width: 70%;
+    }
+    .mainRight{
+        width: 30%;
+    }
+    .tigerr{
+        width: 180%;
+        opacity: 0.8;
+    }
+    .htree{
+        height: 700px;
+        width: auto;
+        top: -10%;
+        opacity: 0.7;
+    }
+    .logo img{
+        height: 50%;
+        margin-top: 15px;
+    }
+
+    #icon i{
+        font-size: 22px;
+    }
+    .Heading{
+        font-size: 26px;
+    }
+    .BiosWorldLeftPara{
+        font-size: 12px;
+    }
+    .pieChartData{
+        width: 90%;
+        left: 5%;
+        font-size: 12px;
+    }
+    .tokenInfoList{
+        margin-top: 25px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tableViewContainer{
+        margin-top: 30px;
+    }
+    .leftItem{
+        flex-direction: column;
+    }
+
+    .leftItem p{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .leftItem img{
+        margin-right: 0;
+    }
+
+    .footerTopLinks{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutUs ul li{
+        text-align: center;
+    }
+
+
+    .followHead{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .follow{
+        
+    }
+
+    .text{
+        display: none;
+    }
+
+    .follow ul{
+        margin-top: 5px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .follow ul li{
+        font-size: 18px;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+    .roadMapTree{
+        top:-140px;
+        width: 35%;
+    }
+
+    .roadMapTree2{
+        top: 40px;
+    }
+
+    .deer{
+        left:45px;
+    }
+
+    .overDeer{
+        left: 100px;
+    }
+    .hill{
+        margin-top: 380px;
+    }
+    .wolf {
+        top: -110px;
+        width: 17%;
+    }
+    .howToBuy{
+        margin-top: -70px;
+        font-size: 22px;
+    }
+    .memify{
+        font-size: 16px;
+    }
+    .howtoBuySection{
+        margin-top: -350px;
+    }
+    .buyGuidesContainer{
+        width: 90%;
+        left: 5%;
+    }
+    .coinLogo img{
+        margin-top: 20%;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        border-radius: 50%;
+    }
+    .address{
+        font-size: 10px;
+    }
+
+    .m6{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .pathHeading{
+        width: 100px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .pathInfoPoints{
+        margin-top: -8px;
+        font-size: 12px;
+    }
+    .pathItemImage{
+        width: 55%;
+    }
+    .item1{
+        bottom: -370px;
+    }
+    .pathItem{
+        width: 31%;
+    }
+    .item2{
+        top: -60px;
+    }
+    .item3{
+        bottom: -290px;
+    }
+    .item4{
+        top: -140px;
+    }
+    .item5{
+        bottom: -220px;
+    }
+    .meetCard p{
+        font-size: 12px;
+    }
+    .meetCard h4{
+        font-size: 14px;
+    }
+    .meetCards{
+        width: 95%;
+        padding: 0 2.5%;
+    }
+    .meetCard{
+        width: 96%;
+    }
+    .howtoBuySection{
+        margin-top: -370px;
+    }
+    .buyGuide h5{
+        font-size: 18px;
+    }
+    .GuideCard {
+        margin-top: 10px;
+        padding: 3%;
+    }
+
+    .GuideCard p{
+        
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .guideCartoonImg{
+        top: -25px;
+    }
+
+    .turtle{
+        margin-top: 20px
+    }
+
+    .crocodile{
+        margin-top: 40px;
+    }
+
+    .cub{
+        margin-top: 10px;
+    }
+    .GuideCard{
+        width: 95%;
+    }
+    .address{
+        font-size: 9px;
+    }
+    .m12btn{
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    .mainLeft{
+        width: 80%;
+    }
+    .mainRight{
+        width: 20%;
+    }
+    
+    .tigerr{
+        width: 260%;
+        opacity: 0.9;
+    }
+    .htree{
+        height: 700px;
+        width: auto;
+        top: -10%;
+        opacity: 0.7;
+    }
+    .shadowTopMainComponent{
+        width: 500px;
+        height: 560px;
+    }
+    .shadowBottomMainComponent{
+        width: 400px;
+        height: 250px;
+    }
+    .walletImagesLeft {
+        width: 15%;
+    }
+
+    .walletConnectionRight {
+        width: 85%;
+    }
+
+    .stone {
+        width: 700%;
+        top: 500px;
+        left: -30px;
+    }
+
+    .owl {
+        top: 560px;
+        left: 0%;
+        width: 200%;
+    }
+
+    .mouse {
+        bottom: 16%;
+        right: 0%;
+        width: 40%;
+    }
+
+    .modal {
+        width: 80%;
+        margin-left: -5%;
+    }
+
+    .bird {
+        top:5%;
+        left: 60%;
+        width: 40%;
+    }
+
+    .m8LTop {
+        font-size: 8px;
+    }
+
+    .m9 {
+        font-size: 10px;
+    }
+
+    .walletTree{
+        height: 90%;
+    }
+    .Heading{
+        font-size: 24px;
+    }
+    .BiosWorldLeftPara{
+        margin-top: 0;
+    }
+    .totalSupply{
+        font-size: 22px;
+    }
+    .tokenInfoList{
+        font-size: 13px;
+    }
+    .tableViewContainer th,
+    .tableViewContainer td{
+        padding: 13px 3px;
+    }
+    .tableViewContainer table{
+        font-size: 13px;
+    }
+    .roadMapTree{
+        top:-130px;
+        width: 40%;
+    }
+
+    .roadMapTree2{
+        top: 40px;
+        width: 40%;
+    }
+
+    .deer{
+        left:45px;
+        width: 20%;
+    }
+
+    .overDeer{
+        left: 100px;
+    }
+
+    .mouseOnTree{
+        width: 45%;
+    }
+    .item1{
+        bottom: -350px;
+    }
+    .item4{
+        top: -130px;
+    }
+    .wolf {
+        top: -110px;
+        width: 19%;
+        margin-right: 5px;
+    }
+    .howToBuy{
+        margin-top: -50px;
+        font-size: 22px;
+    }
+    .memify{
+        font-size: 14px;
+    }
+    .buyGuide h5{
+        font-size: 15px;
+    }
+    .nav ul li{
+        font-size: 18px;
+    }
+    .address{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px){
+     .heading{
+        font-size: 28px;
+    }
+
+    .content{
+        font-size: 13px;
+    }
+    .buyTokenParent{
+        width: 150px;
+        height: 40px;
+    }
+
+    .buyToken{
+        font-size: 15px;
+    }
+    .htree{
+        opacity: 0.5;
+    }
+    .tableViewContainer td{
+        padding: 13px 1px;
+    }
+    .tableViewContainer table{
+        font-size: 8px;
+    }
+    .hill{
+        margin-top: 420px;
+    }
+    .howtoBuySection{
+        margin-top: -350px;
+    }
+    .BiosWorldRight img {
+        margin-right: -15px;
+    }
+}
